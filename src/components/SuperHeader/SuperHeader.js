@@ -26,16 +26,25 @@ const Wrapper = styled.div`
   font-size: 0.875rem;
   color: ${COLORS.gray[300]};
   background-color: ${COLORS.gray[900]};
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 35px;
+  gap: 24px;
 `;
 
 const MarketingMessage = styled.span`
   color: ${COLORS.white};
+  margin-right: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
 `;
 
 const HelpLink = styled.a`
   color: inherit;
   text-decoration: none;
   outline-offset: 2px;
+  padding-right: 3px;
 
   &:not(:focus-visible) {
     outline: none;
