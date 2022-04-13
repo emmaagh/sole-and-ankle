@@ -28,16 +28,14 @@ const Wrapper = styled.div`
   background-color: ${COLORS.gray[900]};
   display: flex;
   align-items: center;
-  padding-left: 32px;
-  padding-right: 35px;
+  padding: 0 32px;
   gap: 24px;
+  height: 40px;
 `;
 
 const MarketingMessage = styled.span`
   color: ${COLORS.white};
   margin-right: auto;
-  padding-top: 12px;
-  padding-bottom: 12px;
 `;
 
 const HelpLink = styled.a`
